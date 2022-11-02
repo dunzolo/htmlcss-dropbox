@@ -117,8 +117,16 @@ header{
 
 .container-small .title-button{
     width: 100%;
-    height: 200px;
-    background-color: orange;
+    margin-bottom: 20px;
+}
+
+.title-button h2{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.title-button span{
+    padding-right: 20px;
 }
 
 .container-small .col-30{
@@ -126,3 +134,4 @@ header{
     height: 400px;
     background-color: blue;
 }
+
