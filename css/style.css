@@ -3,3 +3,26 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* inizio header */
+header{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+}
+
+.header-right{
+    height: 40px;
+    width: 30%;
+    border: 1px solid red;
+}
+
+.header-left{
+    height: 40px;
+    width: 30%;
+    border: 1px solid red;
+}
+/* fine header */
