@@ -11,6 +11,9 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    background-color: white;
 }
 
 .header-right, .header-left{
@@ -47,3 +50,41 @@ header{
     border: none;
 }
 /* fine header */
+
+/* inizio jumbotron */
+.jumbotron{
+    height: 600px;
+    background-color: lightseagreen;
+    padding-top: 100px;
+}
+
+.container-large{
+    width: 80%;
+    height: 500px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.row{
+    width: 100%;
+    display: flex;
+}
+
+.col-40{
+    width: 40%;
+    height: 300px;
+    background-color: orange;
+}
+
+.col-60{
+    width: 60%;
+    height: 300px;
+
+    background-color: yellow;
+}
+
+.col-100{
+    width: 100%;
+    height: 200px;
+    background-color: blue;
+}
