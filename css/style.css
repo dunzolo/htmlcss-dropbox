@@ -73,7 +73,7 @@ header{
 
 .col-30{
     width: 30%;
-    position:relative;
+    /* position:relative; */
 }
 
 .col-30 ul{
@@ -84,11 +84,11 @@ header{
     margin-bottom: 20px;
 }
 
-.col-30 i{
+/* .col-30 i{
     position: absolute;
     bottom: 20%;
     left: 0;
-}
+} */
 
 .col-70{
     width: 70%;
@@ -112,7 +112,6 @@ header{
 .container-small{
     width: 60%;
     margin: 0 auto;
-    border: 1px solid red;
 }
 
 .container-small .title-button{
@@ -132,6 +131,11 @@ header{
 .container-small .col-30{
     width: 30%;
     height: 400px;
-    background-color: blue;
+    border: 1px solid grey;
 }
 
+.container-top{
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding: 10px 0px;
+}
