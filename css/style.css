@@ -11,18 +11,39 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: orange;
+}
+
+.header-right, .header-left{
+    display: flex;
 }
 
 .header-right{
-    height: 40px;
-    width: 30%;
-    border: 1px solid red;
+    justify-content: flex-end;
 }
 
-.header-left{
-    height: 40px;
-    width: 30%;
-    border: 1px solid red;
+.header-left img{
+    width: 100px;
+    padding: 0 10px;
+}
+
+.inline-list{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.inline-list li{
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.btn-sm{
+    padding: 5px 10px;
+}
+
+.btn-blue{
+    color: white;
+    background-color:#306EFF;
+    border: none;
 }
 /* fine header */
