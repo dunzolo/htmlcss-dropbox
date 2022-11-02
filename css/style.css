@@ -59,10 +59,8 @@ header{
 }
 
 .container-large{
-    width: 80%;
-    height: 500px;
+    width: 70%;
     margin: 0px auto;
-    /* border: 1px solid red; */
 }
 
 .row{
@@ -70,21 +68,38 @@ header{
     display: flex;
 }
 
-.col-40{
-    width: 40%;
-    height: 300px;
-    background-color: orange;
+.col-30{
+    width: 30%;
+    position:relative;
 }
 
-.col-60{
-    width: 60%;
-    height: 300px;
-
-    background-color: yellow;
+.col-70{
+    width: 70%;
 }
 
 .col-100{
     width: 100%;
-    height: 200px;
-    background-color: blue;
+}
+
+.col-100 h1{
+    font-size: 70px;
+    padding-bottom: 30px;
+}
+
+.col-30 ul{
+    list-style-type: none;
+}
+
+.col-30 ul li{
+    margin-bottom: 20px;
+}
+
+.col-70 img{
+    width: 100%;
+}
+
+.col-30 i{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
 }
