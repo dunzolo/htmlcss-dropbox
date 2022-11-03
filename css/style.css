@@ -19,8 +19,16 @@
     text-align: center;
 }
 
+.font-size-12px{
+    font-size: 12px;
+}
+
 .padding-20{
     padding: 20px;
+}
+
+.padding-30{
+    padding: 30px;
 }
 
 .padding-50{
@@ -281,4 +289,8 @@ header{
     max-width: 50%;
     margin: auto;
     filter: brightness(0) invert(1);
+}
+
+.img-square-central{
+    max-width: 60%;
 }
