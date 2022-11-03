@@ -71,6 +71,10 @@
     color:#306EFF
 }
 
+.color-purple{
+    color: #61082B;
+}
+
 .border-grey{
     border: 1px solid grey;
 }
@@ -293,4 +297,9 @@ header{
 
 .img-square-central{
     max-width: 60%;
+}
+
+.full-container{
+    width: 100%;
+    height: 30vh;
 }
