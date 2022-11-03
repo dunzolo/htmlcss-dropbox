@@ -8,11 +8,25 @@
 /* utils */
 .flex{
     display: flex;
+    align-items:flex-start;
+}
+
+.type-none{
+    list-style-type: none;
 }
 
 .text-center{
     text-align: center;
 }
+
+.padding-20{
+    padding: 20px;
+}
+
+.margin-bottom-20{
+    margin-bottom: 20px;
+}
+
 
 /* inizio header */
 header{
@@ -68,7 +82,6 @@ header{
     background-color: #B4D0E7;
     padding-top: 100px;
     margin-bottom: 100px;
-
 }
 
 .container-large{
@@ -82,16 +95,16 @@ header{
     justify-content: space-between;
 }
 
-.col-30{
-    width: 30%;
+.col-40{
+    width: 40%;
     /* position:relative; */
 }
 
-.col-30 ul{
+.col-40 ul{
     list-style-type: none;
 }
 
-.col-30 ul li{
+.col-40 ul li{
     margin-bottom: 20px;
 }
 
@@ -101,11 +114,11 @@ header{
     left: 0;
 } */
 
-.col-70{
-    width: 70%;
+.col-60{
+    width: 60%;
 }
 
-.col-70 img{
+.col-60 img{
     width: 100%;
 }
 
@@ -141,7 +154,6 @@ header{
 
 .container-small .col-30{
     width: 30%;
-    height: 400px;
     border: 1px solid grey;
 }
 
@@ -152,6 +164,14 @@ header{
 }
 
 .btn-large{
-    padding: 5px 20px;
+    padding: 5px 0px;
+    width: 90%;
 }
 
+.col-30 ul li{
+    padding: 5px 0px;
+}
+
+.col-30 ul li span{
+    padding-left: 10px;
+}
