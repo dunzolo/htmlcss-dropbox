@@ -2,6 +2,16 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* utils */
+.flex{
+    display: flex;
+}
+
+.text-center{
+    text-align: center;
 }
 
 /* inizio header */
@@ -54,10 +64,11 @@ header{
 
 /* inizio jumbotron */
 .jumbotron{
-    height: 600px;
-    background-color: lightseagreen;
+    /* height: 600px; */
+    background-color: #B4D0E7;
     padding-top: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
+
 }
 
 .container-large{
@@ -139,3 +150,8 @@ header{
     text-align: center;
     padding: 10px 0px;
 }
+
+.btn-large{
+    padding: 5px 20px;
+}
+
