@@ -67,6 +67,10 @@
     border: 1px solid grey;
 }
 
+.border-lightgreen{
+    border: 10px solid #D1E9CD;
+}
+
 .background-lightgreen{
     background-color: #A2D39B;
 }
@@ -270,4 +274,11 @@ header{
 .col-16{
     width: calc(100% / 2);
     height: 200px;
+    display: flex;
+}
+
+.col-16 img{
+    max-width: 50%;
+    margin: auto;
+    filter: brightness(0) invert(1);
 }
