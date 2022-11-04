@@ -15,6 +15,10 @@
     list-style-type: none;
 }
 
+.min-height-170{
+    min-height: 150px;
+}
+
 .text-center{
     text-align: center;
 }
@@ -25,6 +29,10 @@
 
 .padding-20{
     padding: 20px;
+}
+
+.padding-horizontal-20{
+    padding: 0px 20px
 }
 
 .padding-30{
@@ -280,19 +288,21 @@ header{
 
 .col-33{
     width: calc(100% / 3);
-    height: 400px;
+    height: calc( 100vw / 3 );
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .col-16{
     width: calc(100% / 2);
-    height: 200px;
+    height: 100%;
     display: flex;
 }
 
 .col-16 img{
     max-width: 50%;
     margin: auto;
-    filter: brightness(0) invert(1);
+    filter: invert(1);
 }
 
 .img-square-central{
