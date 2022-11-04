@@ -174,6 +174,12 @@ header{
     background-color:#306EFF;
     border: none;
 }
+
+.btn-lightgrey{
+    color:#61082B;
+    background-color: #ffffff;
+    border: none;
+}
 /* fine header */
 
 /* inizio jumbotron */
@@ -312,4 +318,12 @@ header{
 .full-container{
     width: 100%;
     height: 30vh;
+}
+
+.full-height{
+    height: 100%;
+}
+
+.align-center{
+    align-items: center;
 }
