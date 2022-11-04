@@ -19,6 +19,10 @@
     min-height: 150px;
 }
 
+.decoration-none{
+    text-decoration: none;
+}
+
 .text-center{
     text-align: center;
 }
@@ -97,6 +101,10 @@
 
 .color-grey{
     color: #808080;
+}
+
+.color-black{
+    color: #000000;
 }
 
 .border-top-grey{
