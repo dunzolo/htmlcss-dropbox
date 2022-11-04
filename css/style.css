@@ -35,6 +35,10 @@
     padding: 0px 20px
 }
 
+.padding-horizontal-5{
+    padding: 0px 5px
+}
+
 .padding-30{
     padding: 30px;
 }
@@ -45,6 +49,10 @@
 
 .padding-right-50{
     padding-right: 50px;
+}
+
+.padding-bottom-20{
+    padding-bottom: 20px;
 }
 
 .padding-vertical-30{
@@ -87,9 +95,17 @@
     color: #61082B;
 }
 
-.border-top-bottom-grey{
+.color-grey{
+    color: #808080;
+}
+
+.border-top-grey{
     border-top: 1px solid grey;
+}
+
+.border-bottom-grey{
     border-bottom: 1px solid grey;
+
 }
 
 .border-grey{
@@ -335,4 +351,19 @@ header{
 
 .align-center{
     align-items: center;
+}
+/* fine main */
+
+/* inizio footer */
+footer{
+    background-color: black;
+    color: white;
+}
+
+.col-20{
+    width: calc(100% / 5);
+}
+
+.col-20 ul li{
+    line-height: 2;
 }
