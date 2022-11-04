@@ -204,11 +204,11 @@ header{
     background-color: #ffffff;
     border: none;
 }
+
 /* fine header */
 
 /* inizio jumbotron */
 .jumbotron{
-    /* height: 600px; */
     background-color: #B4D0E7;
     padding-top: 100px;
     margin-bottom: 100px;
@@ -227,7 +227,7 @@ header{
 
 .col-40{
     width: 40%;
-    /* position:relative; */
+    position:relative;
 }
 
 .col-40 ul{
@@ -238,6 +238,10 @@ header{
     margin-bottom: 20px;
 }
 
+.col-40 .fa-arrow-down{
+    position: absolute;
+    bottom: 50px;
+}
 /* .col-30 i{
     position: absolute;
     bottom: 20%;
@@ -246,10 +250,13 @@ header{
 
 .col-60{
     width: 60%;
+    position: relative;
 }
 
 .col-60 img{
     width: 100%;
+    position: absolute;
+    top: 0;
 }
 
 .col-100{
