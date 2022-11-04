@@ -211,7 +211,7 @@ header{
 .jumbotron{
     background-color: #B4D0E7;
     padding-top: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .container-large{
@@ -240,7 +240,7 @@ header{
 
 .col-40 .fa-arrow-down{
     position: absolute;
-    bottom: 50px;
+    bottom: 10%;
 }
 /* .col-30 i{
     position: absolute;
@@ -253,10 +253,15 @@ header{
     position: relative;
 }
 
-.col-60 img{
+.img-max-width{
     width: 100%;
+    max-width: 600px;
     position: absolute;
     top: 0;
+}
+
+.col-60 img{
+    width: 100%;
 }
 
 .col-100{
