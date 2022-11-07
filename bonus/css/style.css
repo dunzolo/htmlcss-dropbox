@@ -402,3 +402,21 @@ footer{
 .col-20 ul li{
     line-height: 2;
 }
+/* fine footer */
+
+/* bonus */
+.btn-sm:hover, .btn-large:hover{
+    /* background-color: white; */
+    /* border: 1px solid #000000; */
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn-sm:active, .btn-large:active{
+    background-color: #193cc8;
+    color: #ffffff;
+}
+
+header ul li, footer ul li, .fa-chevron-down{
+    cursor: pointer;
+}
